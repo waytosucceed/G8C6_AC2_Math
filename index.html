@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header {
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 20px;
+        display: flex;
+      }
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1100px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          height: 300px;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./assests/logo/logo1.png" alt="logo" class="company-logo" />
+        <img src="./assests/logo/logo2.png" alt="logo" class="company-logo" />
+      </div>
+
+      <div class="content-container">
+        <div class="lesson-title">Factors and Multiples</div>
+
+        <div class="lesson-content">
+          <div>
+           
+            
+         
+            <h2><u>Factors</u></h2>
+            <p>
+              Factors are numbers that can divide another number without leaving a remainder. In simpler terms, if one number (the divisor) can evenly divide another number (the dividend), then the divisor is considered a factor of the dividend. Every number has at least two factors: 1 and itself.
+<br><br><b>For example</b>, in the case of the number 24, both 4 and 6 are factors because they divide 24 evenly, resulting in a quotient with no remainder. Thus, 24 has factors of 1, 24, 4, and 6, in addition to 2, 3, 8, and 12, all of which also evenly divide 24.
+<br><br>Prime numbers, on the other hand, have only two factors: 1 and the number itself. For instance, 2 is a prime number because it can only be divided by 1 and 2.
+<br><br><b>Factors of a Number Properties</b>
+<br><br>These are some of the key properties of the factors of a number:
+              <ul>
+                <li>Zero cannot be a factor of any number as division by 0 is not defined.</li>
+                <li>1 is a factor of every number.</li>
+                <li>Every number has at least 2 factors, 1 and the number itself</li>
+                <li>A factor can be negative.</li>
+                <li>A factor of a number is always smaller than or equal to the number.</li>
+                <li>1 is the smallest factor of a number and the number itself is the greatest factor of the number.</li>
+                <li>A factor of a number can never be a decimal or a fraction.</li>
+                <li>2 is a factor of every even number.</li>
+                <li>5 is a factor of every number that has 5 or 0 in its unit place.</li>
+              </ul>
+            </p>
+            
+            <h2><u>Multiples:</u></h2>
+            <p>
+              Multiples of a number are the products of that number and other natural numbers. You can often find multiples by examining a multiplication table. Here are examples of multiples for various numbers:
+<br><br><b>Multiples of 2</b>: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and so on. Multiples of 2 are even numbers and end with digits 0, 2, 4, 6, or 8.
+<br><br><b>Multiples of 3</b>: 3, 6, 9, 12, 15, 18, 21, and so on.
+<br><br><b>Multiples of 5</b>: 5, 10, 15, 20, 25, and so on. Every multiple of 5 ends with either 0 or 5.
+<br><br>In essence, multiples are the results of multiplying a specific number by various other numbers.
+            </p>
+            
+            
+            <h2>Key differences b/w factors and multiples:</h2>
+            <img src="./assests/images/1.png" alt="">
+            <h2>Relationship b/w Factors and Multiples:</h2>
+            <p>
+              Factors and multiples are related to each other. A factor of a number is the number that divides it completely without leaving any remainder. For any given number we can represent it as p × q = z. Here we say z is a multiple of p and q. According to the definition of factors and multiples, p and q are factors of z, because z is divisible by p as well as q. For example, 6 × 2 = 12, so 6 and 2 are the factors of 12, and 12 is a multiple of 6 and 2.
+              <br><br><b>How to Find Factors of a Number?</b>
+            <br><br>We can find all the factors of a given number in the following two ways:
+            <ul>
+              <li>Multiplication method</li>
+              <li>Division Method</li>
+              <li>Factor Tree Method</li>
+            </ul>
+            </p>
+            
+            <h2><u>Finding Factors Using Multiplication Method</u></h2>
+
+            <p>
+              In this method, we have to find all the pairs of whole numbers whose product equals the given number. Let us consider an example to understand that better.
+              
+              <br><b>Example: Find all the factors of 24 using the multiplication method.</b>
+              <br><br><b>Solution:</b><br>
+              We have to find all the pairs of whole numbers whose product is 12, like
+              <ul>
+                <li>1 × 24 = 24</li>
+                <li>2 × 12 = 24</li>
+                <li>3 × 8 = 24</li>
+                <li>4 × 6 = 24</li>
+              </ul>
+              Here the product of the following pairs is 24.
+<br><br>(1, 24) , (2, 12), (3, 8) and (4, 6)
+<br><br>Hence, all these numbers 1, 2, 3, 4, 6, 8, 12 and 24 are factors of 24.
+
+            </p>
+            <img src="./assests/images/2.jpg" alt="">
+            <h2><u>Finding Factors Using Division Method</u></h2>
+            
+            <p>
+              In this method, we have to find all the divisors of the given number which are exactly divisible by it. Here we start dividing the given number by 1 and continue dividing it by the next number until we reach the square root of that number (or until we reach the number itself).
+<br><br>If the number exactly divides the original number then it is a factor else not. Let us consider an example to understand that better.
+<br><br><b>Example: Find all the factors of 12 using the division method.</b>
+<br><br><b>Solution:</b>
+<br><br>We will take every natural number less than 12 and will check whether it is divisible by 12 or not
+<br><br>We will take every natural number less than 12 and will check whether it is divisible by 12 or not
+<br><br>12 ÷ 1 = 12 (remainder = 0)
+<br><br>12 ÷ 2 = 6 (remainder = 0)
+<br><br>12 ÷ 3 = 4 (remainder = 0)
+<br><br>12 ÷ 4 = 3 (remainder = 0)
+<br><br>12 ÷ 5 = 2 (remainder = 2)
+<br><br>12 ÷ 6 = 2 (remainder = 0)
+<br><br>12 ÷ 7 = 1 (remainder = 5)
+<br><br>12 ÷ 8 = 1 (remainder = 4)
+<br><br>12 ÷ 9 = 1 (remainder = 3)
+<br><br>12 ÷ 10 = 1 (remainder = 2)
+<br><br>12 ÷ 11 = 1 (remainder = 1)
+<br><br>12 ÷ 12 = 1(remainder = 0)
+<img src="./assests/images/3.jpg" alt="">
+So, the numbers that are exactly divides 12 are 1, 2, 3, 4, 6, and 12. Hence these numbers are the factors of 12.
+            </p>
+            <h2><u>Prime Factorization by Factor Tree Method</u></h2>
+            <p>
+              A factor tree is a diagrammatic representation of the prime factors of a number. In this method, we find the factors of a number and then further factorize them until we get all the factors as prime numbers. Here, we consider the given number as the top of a tree and all its factors as its branches.
+              <br><br>To find the prime factorization by factor tree method, we follow the below-given steps:
+              <ul>
+                <li>First, split the given number (which is placed at the top of the tree) into factors.</li>
+                <li>Then write down the factor pair as the branches of the tree.</li>
+                <li>Again split the composite factors obtained in step 2.</li>
+                <li>Repeat steps 2 and 3 until all the factors become prime numbers.</li>
+                <li>Lastly, multiply all the prime factors obtained.</li>
+              </ul>
+              <b>For example:</b>
+              <img src="./assests/images/4.jpg" alt="">
+            </p>
+            <h2>How to Find Multiples of a Number?</h2>
+            <p>
+              To find multiples of a number, we simply multiply the given number by another whole number. For example, if we have a number 3, its multiples are numbers like 3, 6, 9, 12, and so on, which are obtained by multiplying 3 by 1, 2, 3, 4, and so on.
+<br><br>We can also find multiples of a number by continuously adding the given integer to itself. For example, to find multiples of 10, we add 10 to itself several times and the obtained multiples 10, 20, 30, 40……
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
